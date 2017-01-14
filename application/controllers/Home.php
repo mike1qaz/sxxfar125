@@ -8,9 +8,9 @@ class Home extends CI_Controller {
 		$data['css_arr'] = array('');
 		$data['js_arr'] = array('thirdpart/jquery.upload-1.0.2.js','thirdpart/jquery.tabledit.min.js', 
 		'thirdpart/jquery.tablednd.js','thirdpart/jquery.tmpl.js');
-		$this->load->view('common/header', $data);
+		//$this->load->view('common/header', $data);
 		
 		$this->load->view('home/index');
-		$this->load->view('common/footer');
+		//$this->load->view('common/footer');
 	}
 }
