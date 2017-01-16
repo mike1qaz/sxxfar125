@@ -1,6 +1,11 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
+/**
+ * 管理后台，通过session判断是否登陆
+ * Enter description here ...
+ * @author mikeye
+ *
+ */
 class Admin extends CI_Controller {
 	var $method;
 	public function __construct() {
@@ -46,14 +51,39 @@ class Admin extends CI_Controller {
 	public function order_manage() {
 		$data['page_title'] = '订单管理';
 		
-		$data['css_arr'] = array('dashboard.css');
+		$data['css_arr'] = array('dashboard.css','thirdpart/jqpagination.css');
 		$data['js_arr'] = array('thirdpart/jquery.upload-1.0.2.js','thirdpart/jquery.tabledit.min.js', 
-		'thirdpart/jquery.tablednd.js','thirdpart/jquery.tmpl.js');
+		'thirdpart/jquery.tablednd.js','thirdpart/jquery.tmpl.js','thirdpart/jquery.jqpagination.min.js', 'admin/order_manage.js');
 		$data['left_menu'] = $this->method;
 		$this->load->view('common/admin_header', $data);
 		$this->load->view('common/admin_topmenu');
 		$this->load->view('admin/order_manage');
 		$this->load->view('common/admin_footer');
+	}
+	public function order_data() {
+		$page = $this->input->post("page");
+		if(empty($page)) {
+			$page = 1;
+		}
+		$limit = 20;
+		$start = ($page - 1) * $limit;
+		$this->load->model('order');
+		$total = $this->order->getCount();
+		$page_count = ceil($total/$limit);
+		$list = $this->order->findByCondition($start, $limit);
+		$i = 1;
+		$order_status_map = array('1' => '待处理' , '2' => '已受理', '3' => '已处理','4' => '完成');
+		if(!empty($list)) {
+			foreach($list as &$row) {
+				$row['index'] = $i;
+				$row['status'] = $order_status_map[$row['order_status']];
+				$i++;
+			}
+			unset($row);
+		}
+		$data = array('ret' => 0, 'data' => array('page_count' => $page_count, 'list' => $list));
+		echo json_encode($data);
+		die(0);
 	}
 	public function list_contract() {
 		$data['page_title'] = '管理合同';
