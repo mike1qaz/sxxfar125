@@ -1,62 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<title>首法</title>
-    <meta name="description" content="sofar">
-    <meta name="keywords" content="sofar">
-	<link rel="stylesheet" href="/static/css/flexslider.css">
-	<link rel="stylesheet" href="/static/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/static/css/font-awesome.css">
-	<link rel="stylesheet" href="/static/css/style.css?t=111">  
-</head>
-<body id="top" data-spy="scroll">
-	<!--top header-->
-
-	<header id="home">
-		<!--main-nav-->
-		<div id="main-nav">
-
-			<nav class="navbar">
-				<div class="container">
-
-					<div class="navbar-header">
-						<a href="index.html" class="navbar-brand">MyBiz</a>
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ftheme">
-							<span class="sr-only">Toggle</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-					</div>
-
-					<div class="navbar-collapse collapse" id="ftheme">
-
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#home">home</a></li>
-							<li><a href="#about">about</a></li>
-							<li><a href="#service">services</a></li>
-							<li><a href="#portfolio">portfolio</a></li>
-							<li><a href="#contact">contact</a></li>
-							<li class="hidden-sm hidden-xs">
-	                            <a href="#" id="ss"><i class="fa fa-search" aria-hidden="true"></i></a>
-	                        </li>
-						</ul>
-
-					</div>
-
-					<div class="search-form">
-	                    <form>
-	                        <input type="text" id="s" size="40" placeholder="Search..." />
-	                    </form>
-	                </div>
-
-				</div>
-			</nav>
-		</div>
-
-	</header>
 
 	<!--slider-->
 	<div id="slider" class="flexslider">
@@ -66,10 +7,10 @@
             	<img src="/static/img/slider/slider1.jpg">
 
 				<div class="caption">
-					<h2><span>an awesome website</span></h2> 
+					<h2><span>首法轮播1</span></h2> 
 					<h2><span>html theme</span></h2>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					<button class="btn">Read More</button>                 
+					<p>法律服务，法律服务，只是产权服务，服务</p>
+					<button class="btn">详情</button>                 
 	            </div>
 
             </li>
@@ -77,10 +18,10 @@
             	<img src="/static/img/slider/slider2.jpg">
 
 				<div class="caption">
-					<h2><span>yet another slide</span></h2> 
+					<h2><span>首法轮播2</span></h2> 
 					<h2><span>html theme</span></h2>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					<button class="btn">Read More</button>                 
+					<p>法律服务，法律服务，只是产权服务，服务</p>
+					<button class="btn">详情</button>                 
 	            </div>
 
             </li>
@@ -88,17 +29,17 @@
             	<img src="/static/img/slider/slider3.jpg">
 
 				<div class="caption">
-					<h2><span>one more slide</span></h2> 
+					<h2><span>首法轮播3</span></h2> 
 					<h2><span>html theme</span></h2>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					<button class="btn">Read More</button>                 
+					<p>法律服务，法律服务，只是产权服务，服务</p>
+					<button class="btn">详情</button>                 
 	            </div>
 
             </li>
         </ul>
 
     </div>
-
+	
     <!--about-->
     <div id="about">
 
@@ -106,7 +47,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
 					<div class="about-heading">
-						<h2>about</h2> 
+						<h2>我要咨询</h2> 
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent metus magna,malesuada porta elementum vitae.</p>
 					</div>
 				</div>
@@ -129,7 +70,7 @@
     			<div class="col-xs-12 col-md-7">
     				<div class="about-right">
     					<div class="about-right-heading">
-    						<h1>about our consulting</h1>
+    						<h1>立即咨询 专业律师</h1>
     					</div>
   
     					<div class="about-right-boot">
@@ -317,109 +258,7 @@
 			</div>
 		</div>
 
-		<!--portfolio-->
-		<div id="portfolio">
-			<div class="container">
-				<div class="row">
-
-					<div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
-						<div class="portfolio-heading">
-							<h2>portfolio</h2> 
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent metus magna,malesuada porta elementum vitae.</p>
-						</div>
-					</div>
-
-				</div>   	
-	    	</div>
-
-	    	<div class="portfolio-thumbnail">
-	    		<div class="container-fluid">
-	    			<div class="row">
-
-	    				<div class="col-xs-6 col-sm-3 col-md-3">
-	    					<div class="item">
-	    						<img src="/static/img/portfolio/portfolio1.jpg" alt="">
-	    						<div class="caption">
-                               		<i class="fa fa-search" aria-hidden="true"></i>
-                               		<p>lorem ipsum amet</p>
-                            	</div>
-	    					</div>
-	    				</div>
-
-	    				<div class="col-xs-6 col-sm-3 col-md-3">
-	    					<div class="item">
-	    						<img src="/static/img/portfolio/portfolio2.jpg" alt="">
-	    						<div class="caption">
-                               		<i class="fa fa-search" aria-hidden="true"></i>
-                               		<p>lorem ipsum amet</p>
-                            	</div>
-	    					</div>
-	    				</div>
-
-	    				<div class="col-xs-6 col-sm-3 col-md-3">
-	    					<div class="item">
-	    						<img src="/static/img/portfolio/portfolio3.jpg" alt="">
-	    						<div class="caption">
-                               		<i class="fa fa-search" aria-hidden="true"></i>
-                               		<p>lorem ipsum amet</p>
-                            	</div>
-	    					</div>
-	    				</div>
-
-	    				<div class="col-xs-6 col-sm-3 col-md-3">
-	    					<div class="item">
-	    						<img src="/static/img/portfolio/portfolio4.jpg" alt="">
-	    						<div class="caption">
-                               		<i class="fa fa-search" aria-hidden="true"></i>
-                               		<p>lorem ipsum amet</p>
-                            	</div>
-	    					</div>
-	    				</div>
-
-	    				<div class="col-xs-6 col-sm-3 col-md-3">
-	    					<div class="item">
-	    						<img src="/static/img/portfolio/portfolio5.jpg" alt="">
-	    						<div class="caption">
-                               		<i class="fa fa-search" aria-hidden="true"></i>
-                               		<p>what you see</p>
-                            	</div>
-	    					</div>
-	    				</div>
-
-	    				<div class="col-xs-6 col-sm-3 col-md-3">
-	    					<div class="item">
-	    						<img src="/static/img/portfolio/portfolio6.jpg" alt="">
-	    						<div class="caption">
-                               		<i class="fa fa-search" aria-hidden="true"></i>
-                               		<p>lorem ipsum amet</p>
-                            	</div>
-	    					</div>
-	    				</div>
-
-	    				<div class="col-xs-6 col-sm-3 col-md-3">
-	    					<div class="item">
-	    						<img src="/static/img/portfolio/portfolio7.jpg" alt="">
-	    						<div class="caption">
-                               		<i class="fa fa-search" aria-hidden="true"></i>
-                               		<p>lorem ipsum amet</p>
-                            	</div>
-	    					</div>
-	    				</div>
-
-	    				<div class="col-xs-6 col-sm-3 col-md-3">
-	    					<div class="item">
-	    						<img src="/static/img/portfolio/portfolio8.jpg" alt="">
-	    						<div class="caption">
-                               		<i class="fa fa-search" aria-hidden="true"></i>
-                               		<p>lorem ipsum amet</p>
-                            	</div>
-	    					</div>
-	    				</div>
-
-	    			</div>
-	    		</div>
-	    	</div>
-		</div>
+		
 
 		<!--contact form-->
 		<div id="get-touch">
@@ -565,41 +404,3 @@
 				</div>
 			</div>
 		</div>
-
-		<!--bottom footer-->
-		<div id="bottom-footer" class="hidden-xs">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<div class="footer-left">
-							&copy; MyBix Theme. All rights reserved
-                            
-						</div>
-					</div>
-
-					<div class="col-md-8">
-						<div class="footer-right">
-                            <ul class="list-unstyled list-inline pull-right">
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#service">Service</a></li>
-                                <li><a href="#portfolo">Portfolio</a></li>
-                                <li><a href="#contact">Contact</a></li>
-                            </ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-        
-
-	
-	<!-- jQuery -->
-    <script src="/static/js/jquery-1.12.0.js"></script>
-    <script src="/static/js/bootstrap.js"></script>
-    <script src="/static/js/jquery.flexslider.js"></script>
-    <script src="/static/js/jquery.inview.js"></script>
-    <script src="/static/js/script.js?t=11"></script>
-    
-</body>
-</html>

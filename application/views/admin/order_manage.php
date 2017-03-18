@@ -18,9 +18,9 @@
 </div>
 <script id="tpl" type="text/x-jquery-tmpl">
 <tr>
-	<td>${index}</td>
+	<td><a href="/admin/order_detail?order_id=${id}">${index}</a></td>
 	<td>${order_code}</td>
-	<td>${user_id}</td>
+	<td>${nick}</td>
 	<td>${status}</td>
 	<td>${created_time}%</td>
 </tr>

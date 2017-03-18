@@ -1,10 +1,10 @@
 <?php
-class Order extends  CI_Model {
+class Users extends  CI_Model {
 	public function __construct() {
 		parent::__construct();
 	}
 	public function findByCondition($start = 0, $limit = 10, $condition = '') {
-		$sql = "select orders.*,u.nick from orders left join users u on orders.user_id=u.id";
+		$sql = "select * from users ";
 		if(!empty($condition)) {
 			$sql .= " where " . $condition;
 		}
@@ -13,11 +13,11 @@ class Order extends  CI_Model {
 		return $query->result_array();
 	}
 	public function getCount() {
-		return $this->db->count_all_results('orders');
+		return $this->db->count_all_results('users');
 	}
 	
-	public function findById($order_id) {
-		$query = $this->db->get_where('orders', array('id' => $order_id), 0, 1);
+	public function findById($id) {
+		$query = $this->db->get_where('users', array('id' => $id), 0, 1);
 		$ret = $query->result_array();
 		if(!empty($ret)) {
 			return $ret[0];
@@ -25,5 +25,5 @@ class Order extends  CI_Model {
 			return null;
 		}
 	}
-}
 	
+}

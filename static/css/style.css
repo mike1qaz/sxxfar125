@@ -2,7 +2,7 @@
 
 /*General*/
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Microsoft YaHei','Simsun';
 	font-size: 14px;
 	font-size: normal;
 	font-smooth: always;
@@ -36,7 +36,7 @@ input[type="text"],
 input[type="password"],
 input[type="email"],
 textarea {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Microsoft YaHei','Simsun';
 	font-size: 14px;
 	font-weight: 500;
 	color: #7e7e7e;
@@ -67,7 +67,7 @@ textarea:focus {
 }
 
 .btn {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Microsoft YaHei','Simsun';
 	font-size: 14px;
 	font-weight: 600;
 	width: 120px;
@@ -145,7 +145,7 @@ textarea:focus {
 }
 
 .top-right p {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Microsoft YaHei','Simsun';
 	font-weight: 700;
 	font-size: 14px;
 }
@@ -197,7 +197,7 @@ textarea:focus {
 	margin-top: 10px;
 }
 #main-nav .navbar-right li > a {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Microsoft YaHei','Simsun';
 	font-size: 15px;
 	font-weight: 700;
 	line-height: 30px;
@@ -269,7 +269,7 @@ textarea:focus {
 }
 
 #slider .caption h2 {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Microsoft YaHei','Simsun';
 	font-weight: 700;
 	font-size: 48px;
 	text-transform: uppercase;
@@ -282,7 +282,7 @@ textarea:focus {
 }
 
 #slider .caption p {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Microsoft YaHei','Simsun';
 	font-weight: 700;
 	font-size: 24px;
 	font-style: italic;
@@ -291,7 +291,7 @@ textarea:focus {
 }
 
 #slider .caption button {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Microsoft YaHei','Simsun';
 	font-weight: 700;
 	font-size: 17px;
 	margin-top: 20px;
@@ -405,7 +405,7 @@ textarea:focus {
 }
 
 #about .about-heading h2 {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Microsoft YaHei','Simsun';
 	font-weight: 700;
 	font-size: 45px;
 	text-transform: uppercase;
@@ -439,7 +439,7 @@ textarea:focus {
 }
 
 #about .about-right-heading h1 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Microsoft YaHei','Simsun';
 	font-weight: 700;
 	padding-top: 100px;
 	text-transform: uppercase;
@@ -462,7 +462,7 @@ textarea:focus {
 }
 
 #about .about-right-wrapper a {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Microsoft YaHei','Simsun';
 	font-weight: 700;
 	color: #282828;
 }
@@ -660,7 +660,7 @@ textarea:focus {
 }
 
 .about-bg-heading {
-	font-family: 'Josefin', sans-serif;
+	font-family: 'Microsoft YaHei','Simsun';
 	font-weight: 900;
 	text-align: center;
 	line-height: 40px;
@@ -672,7 +672,7 @@ textarea:focus {
 }
 
 .about-bg-heading p {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Microsoft YaHei','Simsun';
 	font-weight: 700;
 	font-weight: 400;
 	font-size: 16px;
@@ -686,7 +686,7 @@ textarea:focus {
 }
 
 #about-bg .about-bg-wrapper .count {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Microsoft YaHei','Simsun';
 	font-weight: 900;
 	font-size: 45px;
 	margin-right: 20px;
@@ -696,7 +696,7 @@ textarea:focus {
 }
 
 #about-bg .about-bg-wrapper p {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Microsoft YaHei','Simsun';
 	font-weight: 400;
 	font-size: 16px;
 	margin-top: 30px;
@@ -859,7 +859,7 @@ textarea:focus {
 }
 
 #service .service-footer-left h3 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Microsoft YaHei','Simsun';
 	font-weight: 600;
 	font-size: 22px;
 	color: #fff;
@@ -998,7 +998,7 @@ textarea:focus {
 }
 
 #portfolio .caption p {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Microsoft YaHei','Simsun';
 	font-weight: 400;
 	text-align: center;
 	color: #fff;
@@ -1212,7 +1212,7 @@ textarea:focus {
 }
 
 #footer .footer-heading {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Microsoft YaHei','Simsun';
 	font-weight: 700;
 	padding: 0 20px;
 	color: #fff;
@@ -1229,7 +1229,7 @@ textarea:focus {
 }
 
 #footer .footer-heading p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Microsoft YaHei','Simsun';
 	word-spacing: 3px;
 	font-weight: 300;
 	margin-top: 40px;
@@ -1255,7 +1255,7 @@ textarea:focus {
 }
 
 #footer .footer-heading ul > li > a {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Microsoft YaHei','Simsun';
 	font-weight: 300;
 	font-size: 15px;
 	padding-top: 9px;

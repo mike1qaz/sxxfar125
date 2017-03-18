@@ -1,0 +1,85 @@
+.custom-list{ 
+    background: #FFF; 
+    width: 1080px; 
+    margin: 0px auto 0; 
+    text-align: center; 
+    line-height: 20px; 
+    overflow: hidden; }
+.custom-list li {
+    float: left;
+    border: 1px solid #bababa;
+    width: 250px;
+    height: 350px; 
+    cursor: pointer;
+    margin: 20px 9px;
+    overflow: hidden;
+    padding: 0px;
+}
+.custom-list li:hover{ 
+    background: #2396d0; 
+    border:1px solid #fff;
+    box-shadow: 0 0 5px #aaa;
+    transition: all .2s linear 0s;
+}
+.custom-list li img.selected,.custom-list li:hover img.unselect{ 
+    display: none; 
+}
+
+.custom-list li:hover img.selected{ 
+    display: inline-block; 
+}
+.custom-list li .title{ 
+    font-size: 24px; 
+    line-height: 60px; 
+    color: #373737; 
+}
+.custom-list li .price{ 
+    font-size: 22px; 
+    font-weight: bold; 
+    line-height: 35px; 
+    color: #e67e7e; 
+}
+.custom-list li:hover .title,.custom-list li:hover .price,.custom-list li:hover .desc-tit{ 
+    color: #FFF; 
+}
+.custom-list li .desc{ 
+    font-size: 14px;
+    height: 55px;
+    line-height: 25px;
+    color: #262626;
+}
+.custom-list li:hover .desc{
+    color:#e3e3e3;
+}
+.custom-list li .btn-box{ 
+    margin-top: 15px; 
+    /*display: none;*/ 
+}
+.custom-list li:hover .btn-box a{ 
+    background: #ee6969;
+    color:#ffffff;
+}
+.custom-list li .btn-box a{ 
+    width: 110px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    background: #009dda; 
+    color: #FFF; display: 
+    inline-block;
+    border-radius: 3px;
+
+}
+.search_custom .search_detail .text {
+    width: 666px;
+    height: 50px;
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 50px;
+    color: #999;
+    background: #fff;
+    border: 1px solid #bababa;
+    box-shadow: 0 0 4px #bababa;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
