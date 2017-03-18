@@ -26,7 +26,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 if(get_cfg_var('server_type') == 'dev') {
 	$config['base_url'] = 'http://www.sxxfar.info';
 } else {
-	$config['base_url'] = 'http://www.sxxfar.online';
+	$config['base_url'] = 'http://www.sxxfar.info';
 }
 
 /*
