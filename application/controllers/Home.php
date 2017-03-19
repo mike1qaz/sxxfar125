@@ -45,4 +45,15 @@ class Home extends CI_Controller {
 		$this->load->view('home/test');
 		$this->load->view('common/footer');
 	}
+	
+	public function service() {
+		$data['page_title'] = '首法-投融资服务';
+		
+		$data['css_arr'] = array('font-awesome.css', 'style.css', 'service.css');
+		$data['js_arr'] = array();
+		$this->load->view('common/header', $data);
+		
+		$this->load->view('home/service');
+		$this->load->view('common/footer');
+	}
 }
